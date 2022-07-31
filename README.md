@@ -1,65 +1,16 @@
-# vscode-spvasm README
+# SPIR-V Assembly Syntax Highlighting
 
-This is the README for your extension "vscode-spvasm". After writing up a brief description, we recommend including the following sections.
+This VSCode extension provides SPIR-V assembly syntax highlighting for Visual Studio Code. The SPIR-V assembly syntax is specified in [SPIRV-Tools](https://github.com/KhronosGroup/SPIRV-Tools/blob/master/docs/syntax.md).
 
-## Features
+![Example syntax highlight](assets/example.png)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+**NOTE** `glslangValidator` doesn't emit SPIR-V assembly. You need `spirv-dis` to disassemble SPIR-V binaries (`*.spv`) to text.
 
-For example if there is an image subfolder under your extension project workspace:
+## License
 
-\!\[feature X\]\(images/feature-x.png\)
+This project is licensed under either of
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+* Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
+* MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+at your option.
