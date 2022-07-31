@@ -1,0 +1,25 @@
+{
+  "name": "vscode-spvasm",
+  "displayName": "vscode-spvasm",
+  "description": "SPIR-V assembly syntac highlighting for VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "spvasm",
+      "aliases": ["SPIR-V Assembly", "spvasm"],
+      "extensions": [".spvasm"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "spvasm",
+      "scopeName": "source.spvasm",
+      "path": "./syntaxes/spvasm.tmLanguage.json"
+    }]
+  }
+}
