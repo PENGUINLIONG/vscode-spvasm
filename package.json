@@ -1,6 +1,6 @@
 {
   "name": "vscode-spvasm",
-  "displayName": "vscode-spvasm",
+  "displayName": "SPIR-V Assembly",
   "description": "SPIR-V assembly syntac highlighting for VSCode",
   "license": "MIT OR Apache-2.0",
   "publisher": "penguinliong",
